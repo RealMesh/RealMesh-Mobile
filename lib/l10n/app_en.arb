@@ -1,0 +1,187 @@
+{
+    "@@locale": "en",
+    "appTitle": "RealMesh",
+    "@appTitle": {
+        "description": "The application title"
+    },
+    "scanForDevices": "Scan for Devices",
+    "@scanForDevices": {
+        "description": "Button text for scanning Bluetooth devices"
+    },
+    "stopScan": "Stop Scan",
+    "@stopScan": {
+        "description": "Button text for stopping Bluetooth scan"
+    },
+    "connecting": "Connecting...",
+    "@connecting": {
+        "description": "Status text when connecting to device"
+    },
+    "connected": "Connected",
+    "@connected": {
+        "description": "Status text when connected to device"
+    },
+    "disconnected": "Disconnected",
+    "@disconnected": {
+        "description": "Status text when disconnected from device"
+    },
+    "connectionFailed": "Connection Failed",
+    "@connectionFailed": {
+        "description": "Status text when connection fails"
+    },
+    "deviceName": "Device Name",
+    "@deviceName": {
+        "description": "Label for device name"
+    },
+    "deviceAddress": "Device Address",
+    "@deviceAddress": {
+        "description": "Label for device address"
+    },
+    "rssi": "Signal Strength",
+    "@rssi": {
+        "description": "Label for signal strength"
+    },
+    "connect": "Connect",
+    "@connect": {
+        "description": "Button text for connecting to device"
+    },
+    "disconnect": "Disconnect",
+    "@disconnect": {
+        "description": "Button text for disconnecting from device"
+    },
+    "settings": "Settings",
+    "@settings": {
+        "description": "Settings screen title"
+    },
+    "nodeSettings": "Node Settings",
+    "@nodeSettings": {
+        "description": "Node settings screen title"
+    },
+    "nodeStatus": "Node Status",
+    "@nodeStatus": {
+        "description": "Node status section title"
+    },
+    "nodeInformation": "Node Information",
+    "@nodeInformation": {
+        "description": "Node information section title"
+    },
+    "networkStatistics": "Network Statistics",
+    "@networkStatistics": {
+        "description": "Network statistics section title"
+    },
+    "messagesSent": "Messages Sent",
+    "@messagesSent": {
+        "description": "Label for messages sent count"
+    },
+    "messagesReceived": "Messages Received",
+    "@messagesReceived": {
+        "description": "Label for messages received count"
+    },
+    "messagesDropped": "Messages Dropped",
+    "@messagesDropped": {
+        "description": "Label for messages dropped count"
+    },
+    "knownNodes": "Known Nodes",
+    "@knownNodes": {
+        "description": "Label for known nodes count"
+    },
+    "uptime": "Uptime",
+    "@uptime": {
+        "description": "Label for node uptime"
+    },
+    "sendMessage": "Send Message",
+    "@sendMessage": {
+        "description": "Button text for sending message"
+    },
+    "message": "Message",
+    "@message": {
+        "description": "Label for message input"
+    },
+    "targetAddress": "Target Address",
+    "@targetAddress": {
+        "description": "Label for target address input"
+    },
+    "send": "Send",
+    "@send": {
+        "description": "Generic send button text"
+    },
+    "bluetoothNotAvailable": "Bluetooth not available",
+    "@bluetoothNotAvailable": {
+        "description": "Error message when Bluetooth is not available"
+    },
+    "bluetoothNotEnabled": "Bluetooth not enabled",
+    "@bluetoothNotEnabled": {
+        "description": "Error message when Bluetooth is not enabled"
+    },
+    "permissionDenied": "Permission denied",
+    "@permissionDenied": {
+        "description": "Error message when permission is denied"
+    },
+    "noDevicesFound": "No devices found",
+    "@noDevicesFound": {
+        "description": "Message when no devices are found during scan"
+    },
+    "scanning": "Scanning...",
+    "@scanning": {
+        "description": "Status text when scanning for devices"
+    },
+    "refresh": "Refresh",
+    "@refresh": {
+        "description": "Button text for refreshing"
+    },
+    "cancel": "Cancel",
+    "@cancel": {
+        "description": "Generic cancel button text"
+    },
+    "ok": "OK",
+    "@ok": {
+        "description": "Generic OK button text"
+    },
+    "error": "Error",
+    "@error": {
+        "description": "Generic error title"
+    },
+    "success": "Success",
+    "@success": {
+        "description": "Generic success title"
+    },
+    "language": "Language",
+    "@language": {
+        "description": "Language settings label"
+    },
+    "english": "English",
+    "@english": {
+        "description": "English language option"
+    },
+    "serbian": "Serbian",
+    "@serbian": {
+        "description": "Serbian language option"
+    },
+    "lookingForRealMeshDevices": "Looking for RealMesh devices...",
+    "@lookingForRealMeshDevices": {
+        "description": "Status text when scanning for devices"
+    },
+    "makeSureDeviceIsPowered": "Make sure your RealMesh device is powered on and nearby",
+    "@makeSureDeviceIsPowered": {
+        "description": "Help text when no devices are found"
+    },
+    "connectToViewStatus": "Connect to a RealMesh node to view its status",
+    "@connectToViewStatus": {
+        "description": "Text shown when not connected to any node"
+    },
+    "about": "About",
+    "@about": {
+        "description": "About section title"
+    },
+    "version": "Version",
+    "@version": {
+        "description": "Version label"
+    },
+    "aboutAppDescription": "A Flutter app for connecting to and managing RealMesh nodes via Bluetooth.",
+    "@aboutAppDescription": {
+        "description": "Main app description"
+    },
+    "aboutTechDescription": "Built with Flutter and supports Serbian Cyrillic and English languages.",
+    "@aboutTechDescription": {
+        "description": "Technical description"
+    }
+}

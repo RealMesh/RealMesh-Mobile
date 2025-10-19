@@ -45,5 +45,5 @@
     "about": "О апликацији",
     "version": "Верзија",
     "aboutAppDescription": "Flutter апликација за повезивање и управљање RealMesh чворовима преко Bluetooth-а.",
-    "aboutTechDescription": "Направљена са Flutter-ом и подржава српски ћирилица и енглески језик."
+    "aboutTechDescription": "Направљена са Flutter-ом и подржава српску ћирилицу и енглески језик."
 }

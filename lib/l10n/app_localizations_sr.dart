@@ -148,5 +148,5 @@ class AppLocalizationsSr extends AppLocalizations {
 
   @override
   String get aboutTechDescription =>
-      'Направљена са Flutter-ом и подржава српски ћирилица и енглески језик.';
+      'Направљена са Flutter-ом и подржава српску ћирилицу и енглески језик.';
 }

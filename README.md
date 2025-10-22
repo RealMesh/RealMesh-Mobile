@@ -10,20 +10,32 @@ A Flutter mobile application for connecting to and managing RealMesh nodes via B
 - **English** (en) - Secondary language
 - Dynamic language switching in app settings
 - Complete UI translation support
+- Kosovo is Serbia! 🇷🇸
 
-### 📡 Bluetooth Connectivity
+### � Modern UI
+
+- **Home Screen**: Unified device scanning + node info + network stats
+- **Messages Screen**: Public channel (Svet) + Direct messaging with tabs
+- **Settings Screen**: Language selection and about information
+- Material Design 3 with smooth animations
+- Real-time data refresh
+
+### �📡 Bluetooth Connectivity
 
 - Scan for RealMesh devices using BLE
 - Connect to RealMesh nodes automatically
 - Real-time communication with firmware API
 - Device signal strength indicators
+- BLE notifications for incoming messages
 
 ### 🎛️ Node Management
 
-- View node status and information
-- Send messages to other nodes
-- Monitor network statistics
-- Real-time node data updates
+- View node identity (address, domain, type)
+- Monitor network stats (known nodes, uptime, battery)
+- View radio configuration (frequency, bandwidth, SF, TX power)
+- Track message statistics (sent, received, errors)
+- Send messages to public channel "svet" (world/everyone)
+- Send direct messages to specific nodes
 
 ### 🔧 RealMesh Firmware Integration
 
@@ -32,17 +44,18 @@ A Flutter mobile application for connecting to and managing RealMesh nodes via B
 - **Supported Commands**:
   - `status` - Get node status and information
   - `nodes` - Get list of known nodes
-  - `send` - Send message to target address
+  - `send` - Send message to target address (use "svet" or "@" for public channel)
   - `stats` - Get network statistics
+- **BLE Notifications**: Real-time message delivery from firmware
 
 ## Architecture
 
 ### 📱 Screens
 
-- **HomeScreen**: Main app with bottom navigation
-- **DeviceScanScreen**: Bluetooth device discovery
-- **NodeDetailScreen**: Connected node management
-- **SettingsScreen**: Language and app settings
+- **HomeScreen**: Bottom navigation container with 3 tabs
+  - **NodeHomeScreen**: Unified device scanning + connection + node info
+  - **MessagesScreen**: Tabbed interface for Svet (public) and Direct messages
+  - **SettingsScreen**: Language selection and about information
 
 ### 🔄 State Management
 
@@ -88,12 +101,28 @@ A Flutter mobile application for connecting to and managing RealMesh nodes via B
 4. **Generate JSON serialization**
 
    ```bash
-   flutter packages pub run build_runner build
+   flutter pub run build_runner build --delete-conflicting-outputs
    ```
 
 5. **Run the app**
+
    ```bash
+   # On emulator/connected device
    flutter run
+   
+   # On specific device
+   flutter run -d <device-id>
+   ```
+
+6. **Build APK**
+   ```bash
+   # Release APK
+   flutter build apk --release
+   
+   # Output: build/app/outputs/flutter-apk/app-release.apk
+   
+   # Split APK per ABI (smaller size)
+   flutter build apk --split-per-abi --release
    ```
 
 ## Permissions
@@ -123,30 +152,44 @@ A Flutter mobile application for connecting to and managing RealMesh nodes via B
 
 ## Usage
 
-### 1. Scanning for Devices
+### 1. Scanning and Connecting
 
-- Open the app and go to the "Scan" tab
-- Tap the scan button to discover RealMesh nodes
-- Devices will appear with signal strength indicators
+**Home Screen** (when not connected):
+- Opens automatically to device scanning
+- Tap "Scan" button to discover RealMesh nodes
+- Devices appear with signal strength (RSSI)
+- Tap the connect icon (→) to connect to a node
 
-### 2. Connecting to a Node
+### 2. Viewing Node Information
 
-- Tap "Connect" on any discovered device
-- Wait for connection to establish
-- Navigate to "Node Status" tab to manage the node
+**Home Screen** (when connected):
+- **Node Identity**: Address, domain, type (Stationary/Mobile)
+- **Network Stats**: Known nodes, uptime, battery percentage
+- **Radio Config**: Frequency, bandwidth, spreading factor, TX power
+- **Message Stats**: Sent, received, and error counts
+- Pull down to refresh data
 
-### 3. Managing Connected Node
+### 3. Messaging
 
-- View node information and status
-- Send messages to other nodes in the network
-- Monitor network statistics
-- Get list of known nodes
+**Messages Screen** - Two tabs:
+
+**Svet (Public Channel)**:
+- Broadcast messages to all nodes in the network
+- Type message and tap send
+- Messages appear in chat bubbles
+- Shows sender and timestamp
+
+**Direct Messages**:
+- Send private messages to specific nodes
+- Select recipient from known nodes
+- One-to-one communication
 
 ### 4. Language Settings
 
-- Go to Settings tab
-- Select between Serbian (Српски) and English
-- Language changes immediately across the app
+**Settings Screen**:
+- Choose between Serbian (Српски) and English
+- Language changes immediately across the entire app
+- All UI elements translated including placeholders and hints
 
 ## Development
 

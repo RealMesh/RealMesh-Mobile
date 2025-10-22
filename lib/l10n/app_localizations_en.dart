@@ -149,4 +149,122 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get aboutTechDescription =>
       'Built with Flutter and supports Serbian Cyrillic and English languages.';
+
+  @override
+  String get kosovoJeSrbija => 'Kosovo is Serbia! 🇷🇸';
+
+  @override
+  String get messages => 'Messages';
+
+  @override
+  String get home => 'Home';
+
+  @override
+  String get readyToScan => 'Ready to scan';
+
+  @override
+  String get lookingForRealMeshNodes => 'Looking for RealMesh nodes';
+
+  @override
+  String get tapScanToFindNodes => 'Tap scan to find nearby nodes';
+
+  @override
+  String get scan => 'Scan';
+
+  @override
+  String get searchingForDevices => 'Searching for devices...';
+
+  @override
+  String get makeSureNodeIsPowered =>
+      'Make sure your RealMesh node is powered on';
+
+  @override
+  String get signal => 'Signal';
+
+  @override
+  String connectedTo(String name) {
+    return 'Connected to $name';
+  }
+
+  @override
+  String get nodeIdentity => 'Node Identity';
+
+  @override
+  String get domain => 'Domain';
+
+  @override
+  String get type => 'Type';
+
+  @override
+  String get stationary => 'Stationary';
+
+  @override
+  String get mobile => 'Mobile';
+
+  @override
+  String get network => 'Network';
+
+  @override
+  String get battery => 'Battery';
+
+  @override
+  String get radio => 'Radio';
+
+  @override
+  String get frequency => 'Frequency';
+
+  @override
+  String get bandwidth => 'Bandwidth';
+
+  @override
+  String get spreadingFactor => 'Spreading Factor';
+
+  @override
+  String get txPower => 'TX Power';
+
+  @override
+  String get sent => 'Sent';
+
+  @override
+  String get received => 'Received';
+
+  @override
+  String get errors => 'Errors';
+
+  @override
+  String get notConnected => 'Not Connected';
+
+  @override
+  String get connectToSendMessages =>
+      'Connect to a node to send and receive messages';
+
+  @override
+  String get noMessagesYet => 'No messages yet';
+
+  @override
+  String get broadcastToSvet => 'Broadcast to \"svet\" to reach everyone';
+
+  @override
+  String get broadcastToSvetHint => 'Broadcast to svet...';
+
+  @override
+  String get noDirectMessages => 'No direct messages';
+
+  @override
+  String get sendMessageToNode => 'Send a message to a specific node';
+
+  @override
+  String get messageToNode => 'Message to node...';
+
+  @override
+  String get selectRecipient => 'Select Recipient';
+
+  @override
+  String get svet => 'Svet';
+
+  @override
+  String get direct => 'Direct';
+
+  @override
+  String get you => 'You';
 }

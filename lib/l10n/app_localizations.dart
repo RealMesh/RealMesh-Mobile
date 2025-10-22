@@ -373,6 +373,234 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Built with Flutter and supports Serbian Cyrillic and English languages.'**
   String get aboutTechDescription;
+
+  /// Kosovo is Serbia statement
+  ///
+  /// In en, this message translates to:
+  /// **'Kosovo is Serbia! 🇷🇸'**
+  String get kosovoJeSrbija;
+
+  /// Messages screen title
+  ///
+  /// In en, this message translates to:
+  /// **'Messages'**
+  String get messages;
+
+  /// Home screen title
+  ///
+  /// In en, this message translates to:
+  /// **'Home'**
+  String get home;
+
+  /// Ready to scan status
+  ///
+  /// In en, this message translates to:
+  /// **'Ready to scan'**
+  String get readyToScan;
+
+  /// Scanning status message
+  ///
+  /// In en, this message translates to:
+  /// **'Looking for RealMesh nodes'**
+  String get lookingForRealMeshNodes;
+
+  /// Instruction to start scanning
+  ///
+  /// In en, this message translates to:
+  /// **'Tap scan to find nearby nodes'**
+  String get tapScanToFindNodes;
+
+  /// Scan button text
+  ///
+  /// In en, this message translates to:
+  /// **'Scan'**
+  String get scan;
+
+  /// Searching status message
+  ///
+  /// In en, this message translates to:
+  /// **'Searching for devices...'**
+  String get searchingForDevices;
+
+  /// Help text when no devices found
+  ///
+  /// In en, this message translates to:
+  /// **'Make sure your RealMesh node is powered on'**
+  String get makeSureNodeIsPowered;
+
+  /// Signal strength label
+  ///
+  /// In en, this message translates to:
+  /// **'Signal'**
+  String get signal;
+
+  /// Connected confirmation message
+  ///
+  /// In en, this message translates to:
+  /// **'Connected to {name}'**
+  String connectedTo(String name);
+
+  /// Node identity section title
+  ///
+  /// In en, this message translates to:
+  /// **'Node Identity'**
+  String get nodeIdentity;
+
+  /// Domain label
+  ///
+  /// In en, this message translates to:
+  /// **'Domain'**
+  String get domain;
+
+  /// Type label
+  ///
+  /// In en, this message translates to:
+  /// **'Type'**
+  String get type;
+
+  /// Stationary node type
+  ///
+  /// In en, this message translates to:
+  /// **'Stationary'**
+  String get stationary;
+
+  /// Mobile node type
+  ///
+  /// In en, this message translates to:
+  /// **'Mobile'**
+  String get mobile;
+
+  /// Network section title
+  ///
+  /// In en, this message translates to:
+  /// **'Network'**
+  String get network;
+
+  /// Battery label
+  ///
+  /// In en, this message translates to:
+  /// **'Battery'**
+  String get battery;
+
+  /// Radio section title
+  ///
+  /// In en, this message translates to:
+  /// **'Radio'**
+  String get radio;
+
+  /// Frequency label
+  ///
+  /// In en, this message translates to:
+  /// **'Frequency'**
+  String get frequency;
+
+  /// Bandwidth label
+  ///
+  /// In en, this message translates to:
+  /// **'Bandwidth'**
+  String get bandwidth;
+
+  /// Spreading factor label
+  ///
+  /// In en, this message translates to:
+  /// **'Spreading Factor'**
+  String get spreadingFactor;
+
+  /// Transmit power label
+  ///
+  /// In en, this message translates to:
+  /// **'TX Power'**
+  String get txPower;
+
+  /// Sent messages label
+  ///
+  /// In en, this message translates to:
+  /// **'Sent'**
+  String get sent;
+
+  /// Received messages label
+  ///
+  /// In en, this message translates to:
+  /// **'Received'**
+  String get received;
+
+  /// Errors label
+  ///
+  /// In en, this message translates to:
+  /// **'Errors'**
+  String get errors;
+
+  /// Not connected status
+  ///
+  /// In en, this message translates to:
+  /// **'Not Connected'**
+  String get notConnected;
+
+  /// Message when not connected
+  ///
+  /// In en, this message translates to:
+  /// **'Connect to a node to send and receive messages'**
+  String get connectToSendMessages;
+
+  /// No messages placeholder
+  ///
+  /// In en, this message translates to:
+  /// **'No messages yet'**
+  String get noMessagesYet;
+
+  /// Hint about public channel
+  ///
+  /// In en, this message translates to:
+  /// **'Broadcast to \"svet\" to reach everyone'**
+  String get broadcastToSvet;
+
+  /// Input hint for public channel
+  ///
+  /// In en, this message translates to:
+  /// **'Broadcast to svet...'**
+  String get broadcastToSvetHint;
+
+  /// No direct messages placeholder
+  ///
+  /// In en, this message translates to:
+  /// **'No direct messages'**
+  String get noDirectMessages;
+
+  /// Hint about direct messages
+  ///
+  /// In en, this message translates to:
+  /// **'Send a message to a specific node'**
+  String get sendMessageToNode;
+
+  /// Input hint for direct message
+  ///
+  /// In en, this message translates to:
+  /// **'Message to node...'**
+  String get messageToNode;
+
+  /// Dialog title for recipient selection
+  ///
+  /// In en, this message translates to:
+  /// **'Select Recipient'**
+  String get selectRecipient;
+
+  /// Public channel name
+  ///
+  /// In en, this message translates to:
+  /// **'Svet'**
+  String get svet;
+
+  /// Direct messages tab
+  ///
+  /// In en, this message translates to:
+  /// **'Direct'**
+  String get direct;
+
+  /// Your messages label
+  ///
+  /// In en, this message translates to:
+  /// **'You'**
+  String get you;
 }
 
 class _AppLocalizationsDelegate

@@ -117,6 +117,15 @@ class SettingsScreen extends StatelessWidget {
                 color: Colors.grey[600],
               ),
             ),
+            const SizedBox(height: 16),
+            Text(
+              AppLocalizations.of(context)!.kosovoJeSrbija,
+              style: theme.textTheme.titleMedium?.copyWith(
+                fontWeight: FontWeight.bold,
+                color: Colors.blue[700],
+              ),
+              textAlign: TextAlign.center,
+            ),
           ],
         ),
       ),

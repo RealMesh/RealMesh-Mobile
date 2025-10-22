@@ -183,5 +183,162 @@
     "aboutTechDescription": "Built with Flutter and supports Serbian Cyrillic and English languages.",
     "@aboutTechDescription": {
         "description": "Technical description"
+    },
+    "kosovoJeSrbija": "Kosovo is Serbia! 🇷🇸",
+    "@kosovoJeSrbija": {
+        "description": "Kosovo is Serbia statement"
+    },
+    "messages": "Messages",
+    "@messages": {
+        "description": "Messages screen title"
+    },
+    "home": "Home",
+    "@home": {
+        "description": "Home screen title"
+    },
+    "readyToScan": "Ready to scan",
+    "@readyToScan": {
+        "description": "Ready to scan status"
+    },
+    "lookingForRealMeshNodes": "Looking for RealMesh nodes",
+    "@lookingForRealMeshNodes": {
+        "description": "Scanning status message"
+    },
+    "tapScanToFindNodes": "Tap scan to find nearby nodes",
+    "@tapScanToFindNodes": {
+        "description": "Instruction to start scanning"
+    },
+    "scan": "Scan",
+    "@scan": {
+        "description": "Scan button text"
+    },
+    "searchingForDevices": "Searching for devices...",
+    "@searchingForDevices": {
+        "description": "Searching status message"
+    },
+    "makeSureNodeIsPowered": "Make sure your RealMesh node is powered on",
+    "@makeSureNodeIsPowered": {
+        "description": "Help text when no devices found"
+    },
+    "signal": "Signal",
+    "@signal": {
+        "description": "Signal strength label"
+    },
+    "connectedTo": "Connected to {name}",
+    "@connectedTo": {
+        "description": "Connected confirmation message",
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "nodeIdentity": "Node Identity",
+    "@nodeIdentity": {
+        "description": "Node identity section title"
+    },
+    "domain": "Domain",
+    "@domain": {
+        "description": "Domain label"
+    },
+    "type": "Type",
+    "@type": {
+        "description": "Type label"
+    },
+    "stationary": "Stationary",
+    "@stationary": {
+        "description": "Stationary node type"
+    },
+    "mobile": "Mobile",
+    "@mobile": {
+        "description": "Mobile node type"
+    },
+    "network": "Network",
+    "@network": {
+        "description": "Network section title"
+    },
+    "battery": "Battery",
+    "@battery": {
+        "description": "Battery label"
+    },
+    "radio": "Radio",
+    "@radio": {
+        "description": "Radio section title"
+    },
+    "frequency": "Frequency",
+    "@frequency": {
+        "description": "Frequency label"
+    },
+    "bandwidth": "Bandwidth",
+    "@bandwidth": {
+        "description": "Bandwidth label"
+    },
+    "spreadingFactor": "Spreading Factor",
+    "@spreadingFactor": {
+        "description": "Spreading factor label"
+    },
+    "txPower": "TX Power",
+    "@txPower": {
+        "description": "Transmit power label"
+    },
+    "sent": "Sent",
+    "@sent": {
+        "description": "Sent messages label"
+    },
+    "received": "Received",
+    "@received": {
+        "description": "Received messages label"
+    },
+    "errors": "Errors",
+    "@errors": {
+        "description": "Errors label"
+    },
+    "notConnected": "Not Connected",
+    "@notConnected": {
+        "description": "Not connected status"
+    },
+    "connectToSendMessages": "Connect to a node to send and receive messages",
+    "@connectToSendMessages": {
+        "description": "Message when not connected"
+    },
+    "noMessagesYet": "No messages yet",
+    "@noMessagesYet": {
+        "description": "No messages placeholder"
+    },
+    "broadcastToSvet": "Broadcast to \"svet\" to reach everyone",
+    "@broadcastToSvet": {
+        "description": "Hint about public channel"
+    },
+    "broadcastToSvetHint": "Broadcast to svet...",
+    "@broadcastToSvetHint": {
+        "description": "Input hint for public channel"
+    },
+    "noDirectMessages": "No direct messages",
+    "@noDirectMessages": {
+        "description": "No direct messages placeholder"
+    },
+    "sendMessageToNode": "Send a message to a specific node",
+    "@sendMessageToNode": {
+        "description": "Hint about direct messages"
+    },
+    "messageToNode": "Message to node...",
+    "@messageToNode": {
+        "description": "Input hint for direct message"
+    },
+    "selectRecipient": "Select Recipient",
+    "@selectRecipient": {
+        "description": "Dialog title for recipient selection"
+    },
+    "svet": "Svet",
+    "@svet": {
+        "description": "Public channel name"
+    },
+    "direct": "Direct",
+    "@direct": {
+        "description": "Direct messages tab"
+    },
+    "you": "You",
+    "@you": {
+        "description": "Your messages label"
     }
 }

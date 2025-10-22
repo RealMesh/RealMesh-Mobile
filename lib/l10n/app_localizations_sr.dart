@@ -149,4 +149,122 @@ class AppLocalizationsSr extends AppLocalizations {
   @override
   String get aboutTechDescription =>
       'Направљена са Flutter-ом и подржава српску ћирилицу и енглески језик.';
+
+  @override
+  String get kosovoJeSrbija => 'Косово је Србија! 🇷🇸';
+
+  @override
+  String get messages => 'Поруке';
+
+  @override
+  String get home => 'Почетна';
+
+  @override
+  String get readyToScan => 'Спреман за скенирање';
+
+  @override
+  String get lookingForRealMeshNodes => 'Тражим RealMesh чворове';
+
+  @override
+  String get tapScanToFindNodes => 'Тапни скенирај да пронађеш чворове';
+
+  @override
+  String get scan => 'Скенирај';
+
+  @override
+  String get searchingForDevices => 'Претражујем уређаје...';
+
+  @override
+  String get makeSureNodeIsPowered =>
+      'Провери да ли је твој RealMesh чвор укључен';
+
+  @override
+  String get signal => 'Сигнал';
+
+  @override
+  String connectedTo(String name) {
+    return 'Повезан са $name';
+  }
+
+  @override
+  String get nodeIdentity => 'Идентитет Чвора';
+
+  @override
+  String get domain => 'Домен';
+
+  @override
+  String get type => 'Тип';
+
+  @override
+  String get stationary => 'Стационаран';
+
+  @override
+  String get mobile => 'Мобилан';
+
+  @override
+  String get network => 'Мрежа';
+
+  @override
+  String get battery => 'Батерија';
+
+  @override
+  String get radio => 'Радио';
+
+  @override
+  String get frequency => 'Фреквенција';
+
+  @override
+  String get bandwidth => 'Пропусност';
+
+  @override
+  String get spreadingFactor => 'Фактор Ширења';
+
+  @override
+  String get txPower => 'TX Снага';
+
+  @override
+  String get sent => 'Послато';
+
+  @override
+  String get received => 'Примљено';
+
+  @override
+  String get errors => 'Грешке';
+
+  @override
+  String get notConnected => 'Није Повезан';
+
+  @override
+  String get connectToSendMessages =>
+      'Повежи се са чвором да шаљеш и примаш поруке';
+
+  @override
+  String get noMessagesYet => 'Још нема порука';
+
+  @override
+  String get broadcastToSvet => 'Емитуј на \"свет\" да стигне свима';
+
+  @override
+  String get broadcastToSvetHint => 'Емитуј на свет...';
+
+  @override
+  String get noDirectMessages => 'Нема директних порука';
+
+  @override
+  String get sendMessageToNode => 'Пошаљи поруку одређеном чвору';
+
+  @override
+  String get messageToNode => 'Порука чвору...';
+
+  @override
+  String get selectRecipient => 'Изабери Примаоца';
+
+  @override
+  String get svet => 'Свет';
+
+  @override
+  String get direct => 'Директне';
+
+  @override
+  String get you => 'Ти';
 }

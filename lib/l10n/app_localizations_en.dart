@@ -267,4 +267,32 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get you => 'You';
+
+  @override
+  String get searchNodes => 'Search nodes...';
+
+  @override
+  String get recentConversations => 'Recent Conversations';
+
+  @override
+  String get availableNodes => 'Available Nodes';
+
+  @override
+  String get noNodesAvailable => 'No nodes available';
+
+  @override
+  String get waitForNodeDiscovery =>
+      'Wait for network discovery to find nearby nodes';
+
+  @override
+  String get directMessage => 'Direct Message';
+
+  @override
+  String get startConversation => 'Start a conversation';
+
+  @override
+  String get typeMessage => 'Type a message...';
+
+  @override
+  String get failedToSendMessage => 'Failed to send message';
 }

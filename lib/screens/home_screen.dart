@@ -185,7 +185,17 @@ class _NodeHomeScreenState extends State<NodeHomeScreen> {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Icon(Icons.devices, size: 64, color: Colors.grey[300]),
+                      // Mesh node with antenna icon
+                      Stack(
+                        alignment: Alignment.center,
+                        children: [
+                          Icon(Icons.router, size: 64, color: Colors.grey[300]),
+                          Positioned(
+                            top: 0,
+                            child: Icon(Icons.wifi, size: 24, color: Colors.grey[400]),
+                          ),
+                        ],
+                      ),
                       const SizedBox(height: 16),
                       Text(
                         provider.isScanning

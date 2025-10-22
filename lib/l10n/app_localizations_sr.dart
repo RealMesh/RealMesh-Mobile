@@ -267,4 +267,32 @@ class AppLocalizationsSr extends AppLocalizations {
 
   @override
   String get you => 'Ти';
+
+  @override
+  String get searchNodes => 'Претражи чворове...';
+
+  @override
+  String get recentConversations => 'Недавне Конверзације';
+
+  @override
+  String get availableNodes => 'Доступни Чворови';
+
+  @override
+  String get noNodesAvailable => 'Нема доступних чворова';
+
+  @override
+  String get waitForNodeDiscovery =>
+      'Сачекај да мрежа пронађе чворове у близини';
+
+  @override
+  String get directMessage => 'Директна Порука';
+
+  @override
+  String get startConversation => 'Почни конверзацију';
+
+  @override
+  String get typeMessage => 'Напиши поруку...';
+
+  @override
+  String get failedToSendMessage => 'Слање поруке неуспешно';
 }

@@ -86,7 +86,17 @@ A Flutter mobile application for connecting to and managing RealMesh nodes via B
    cd RealMesh-Mobile
    ```
 
-2. **Install dependencies**
+2. **Activate Python virtual environment** (if using platformio for firmware development)
+
+   ```bash
+   # From RealMesh-Firmware directory
+   source /Users/dale/posao/RealMeshProject/RealMesh-Firmware/.venv/bin/activate
+   
+   # Or relative path if already in RealMesh-Firmware
+   source .venv/bin/activate
+   ```
+
+3. **Install dependencies**
 
    ```bash
    flutter pub get

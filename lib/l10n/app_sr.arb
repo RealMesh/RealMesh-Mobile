@@ -83,5 +83,14 @@
     "selectRecipient": "Изабери Примаоца",
     "svet": "Свет",
     "direct": "Директне",
-    "you": "Ти"
+    "you": "Ти",
+    "searchNodes": "Претражи чворове...",
+    "recentConversations": "Недавне Конверзације",
+    "availableNodes": "Доступни Чворови",
+    "noNodesAvailable": "Нема доступних чворова",
+    "waitForNodeDiscovery": "Сачекај да мрежа пронађе чворове у близини",
+    "directMessage": "Директна Порука",
+    "startConversation": "Почни конверзацију",
+    "typeMessage": "Напиши поруку...",
+    "failedToSendMessage": "Слање поруке неуспешно"
 }

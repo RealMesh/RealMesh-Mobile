@@ -601,6 +601,60 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'You'**
   String get you;
+
+  /// Search bar hint
+  ///
+  /// In en, this message translates to:
+  /// **'Search nodes...'**
+  String get searchNodes;
+
+  /// Section header for nodes with messages
+  ///
+  /// In en, this message translates to:
+  /// **'Recent Conversations'**
+  String get recentConversations;
+
+  /// Section header for nodes without messages
+  ///
+  /// In en, this message translates to:
+  /// **'Available Nodes'**
+  String get availableNodes;
+
+  /// Empty state when no nodes discovered
+  ///
+  /// In en, this message translates to:
+  /// **'No nodes available'**
+  String get noNodesAvailable;
+
+  /// Help text when no nodes
+  ///
+  /// In en, this message translates to:
+  /// **'Wait for network discovery to find nearby nodes'**
+  String get waitForNodeDiscovery;
+
+  /// Direct message label
+  ///
+  /// In en, this message translates to:
+  /// **'Direct Message'**
+  String get directMessage;
+
+  /// Empty conversation placeholder
+  ///
+  /// In en, this message translates to:
+  /// **'Start a conversation'**
+  String get startConversation;
+
+  /// Message input placeholder
+  ///
+  /// In en, this message translates to:
+  /// **'Type a message...'**
+  String get typeMessage;
+
+  /// Error message when message sending fails
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to send message'**
+  String get failedToSendMessage;
 }
 
 class _AppLocalizationsDelegate

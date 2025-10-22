@@ -42,6 +42,9 @@ class BluetoothProvider extends ChangeNotifier {
       return;
     }
 
+    // Request permissions immediately on init
+    await requestPermissions();
+
     // Listen to Bluetooth state changes
     FlutterBluePlus.adapterState.listen((BluetoothAdapterState state) {
       _isBluetoothEnabled = state == BluetoothAdapterState.on;
@@ -211,6 +214,7 @@ class BluetoothProvider extends ChangeNotifier {
   Future<Map<String, dynamic>?> sendCommand(String command, [Map<String, dynamic>? params]) async {
     if (_characteristic == null) {
       _lastError = 'Not connected to device';
+      debugPrint('ERROR: Not connected to device');
       notifyListeners();
       return null;
     }
@@ -222,7 +226,9 @@ class BluetoothProvider extends ChangeNotifier {
       };
 
       final commandString = jsonEncode(commandJson);
+      debugPrint('Sending command: $commandString');
       await _characteristic!.write(commandString.codeUnits);
+      debugPrint('Command sent successfully');
       
       // Wait for response (handled by notification listener)
       // For now, return a success indication
@@ -230,6 +236,7 @@ class BluetoothProvider extends ChangeNotifier {
       
     } catch (e) {
       _lastError = 'Failed to send command: $e';
+      debugPrint('ERROR: Failed to send command: $e');
       notifyListeners();
       return null;
     }

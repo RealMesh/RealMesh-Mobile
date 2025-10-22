@@ -340,5 +340,41 @@
     "you": "You",
     "@you": {
         "description": "Your messages label"
+    },
+    "searchNodes": "Search nodes...",
+    "@searchNodes": {
+        "description": "Search bar hint"
+    },
+    "recentConversations": "Recent Conversations",
+    "@recentConversations": {
+        "description": "Section header for nodes with messages"
+    },
+    "availableNodes": "Available Nodes",
+    "@availableNodes": {
+        "description": "Section header for nodes without messages"
+    },
+    "noNodesAvailable": "No nodes available",
+    "@noNodesAvailable": {
+        "description": "Empty state when no nodes discovered"
+    },
+    "waitForNodeDiscovery": "Wait for network discovery to find nearby nodes",
+    "@waitForNodeDiscovery": {
+        "description": "Help text when no nodes"
+    },
+    "directMessage": "Direct Message",
+    "@directMessage": {
+        "description": "Direct message label"
+    },
+    "startConversation": "Start a conversation",
+    "@startConversation": {
+        "description": "Empty conversation placeholder"
+    },
+    "typeMessage": "Type a message...",
+    "@typeMessage": {
+        "description": "Message input placeholder"
+    },
+    "failedToSendMessage": "Failed to send message",
+    "@failedToSendMessage": {
+        "description": "Error message when message sending fails"
     }
 }
